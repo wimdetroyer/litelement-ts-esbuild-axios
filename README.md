@@ -3,6 +3,8 @@
 minimal reproducible example of following problem:
 
 
+## Problem
+
 I'm trying to add the axios dependency in the lit-element-ts-build: https://github.com/modernweb-dev/example-projects/tree/master/lit-element-ts-esbuild
 
 Here's the changed MyElement.ts file:
@@ -68,7 +70,9 @@ But from this point on I'm stumped.
 From what I can tell, axios is using the adapters it should use in a node.js environment, instead of the ones for the browser (?)
 
 
+## how to reproduce
 
+run either `npm run start` or `npm run test
 
 
 
